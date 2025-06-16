@@ -4,9 +4,11 @@
 You are operating within the HestAI research directory, which contains 136 empirical research documents that form the theoretical foundation of the HestAI system. This directory serves as the knowledge base for understanding and evolving the system's cognitive architectures, patterns, and implementations.
 
 ## Documentation Structure
-Meta-documentation and organizational files are located in:
-- `/docs/meta-research/` - Contains MASTER_RESEARCH_INDEX.md, EXECUTIVE_SUMMARY.md, RESEARCH_GAP_ANALYSIS.md, and other high-level organizational documents
-- `/docs/README.md` - Explains the documentation structure and usage
+All meta-level organization is in the `/00-meta/` directory:
+- `/00-meta/docs/meta-research/` - Master index, executive summary, gap analysis
+- `/00-meta/activations/` - Research skills and patterns for AI agents
+- `/00-meta/tasks/` - Task assignments for research assistants
+- `/00-meta/README.md` - Complete guide to the meta structure
 
 Research documents remain in their category directories at the root level.
 
@@ -57,10 +59,11 @@ load HERMES_SHANK on BUILD_ARM with RESEARCH_CURATOR
 ```
 
 **The RESEARCH_CURATOR skill (local to this directory):**
-- Located at: `/Users/shaunbuswell/dev/hestai-research/RESEARCH_CURATOR_SKILL_HERMES.oct.md`
+- Located at: `/Users/shaunbuswell/dev/hestai-research/00-meta/activations/skills/RESEARCH_CURATOR_SKILL_HERMES.oct.md`
 - Provides: Research search, cross-referencing, evidence chains, insight extraction, and curation
 - Integrates with: `research-lock` for safe concurrent operations
-- Works with all 8 research categories in this directory
+- Works with all research categories in this directory
+- Additional patterns in: `/00-meta/activations/patterns/`
 
 **This triggers the 5-phase loading sequence**:
 - Phase 0: ORIENTATION - Acknowledge and prepare
@@ -182,11 +185,17 @@ load HERMES_SHANK on DESIGN_ARM with RESEARCH_SYNTHESIS,PATTERN_RECOGNITION
 ## Key Research Artifacts
 
 ### Master Research Index
-Located in `docs/meta-research/MASTER_RESEARCH_INDEX.md`:
+Located in `00-meta/docs/meta-research/MASTER_RESEARCH_INDEX.md`:
 - Complete catalog of all 136 research documents
 - Organized by category with key findings
 - Cross-cutting themes and research gaps
 - Updated document counts and locations
+
+### Research Patterns
+Located in `00-meta/activations/patterns/`:
+- Citation format standards
+- Evidence chain tracking
+- Cross-reference validation patterns
 
 ### RAPH Framework
 Located in `raph-framework/`, contains:
@@ -209,11 +218,13 @@ Documentation of the SHANK-ARM-FLUKE breakthrough:
 
 ## Research Best Practices
 
-1. **Cross-Reference Constantly**: Research documents reference each other extensively
-2. **Track Evolution**: Many concepts evolved through multiple research phases
-3. **Preserve Context**: Why something was discovered is as important as what
-4. **Validate Claims**: Look for empirical evidence in the studies
-5. **Connect to Implementation**: Link research findings to system features
+1. **Start with Prevention**: Read `/00-meta/activations/prevention-checklist.yaml` BEFORE work
+2. **Cross-Reference Constantly**: Research documents reference each other extensively
+3. **Track Evolution**: Many concepts evolved through multiple research phases
+4. **Preserve Context**: Why something was discovered is as important as what
+5. **Validate Claims**: Look for empirical evidence in the studies
+6. **Connect to Implementation**: Link research findings to system features
+7. **Learn from Mistakes**: Add new MUST/BECAUSE rules to prevention checklist
 
 ## Natural Language Research Triggers
 
