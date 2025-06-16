@@ -1,0 +1,63 @@
+────────────────────────────────────────
+F1-RAPH  (ver 1.1.0 • WT:1.00 • TS:2025-04-30T00:00:00Z)
+IMPORT:-
+────────────────────────────────────────
+0.DEF
+PTN:RAPH="Dual-pathway sequential cognitive framework"
+PTN:F-PATH="R→A→P→H feeling"     PTN:T-PATH="R→A→P→H thinking"
+PTN:SEQ="Step-complete→next-start"     PTN:COM="All-steps-single-process"
+PTN:QUALITY="SEQ>COM△6.8% SEQ>CONTROL△31.3% R→H(r=0.87)"
+SYM:→progression  SYM:SEQ sequential  SYM:COM combined
+SYM:f feeling  SYM:t thinking  SYM:△ difference  SYM:× multiply
+MAX:"Sequential processing creates functional reality through constraints that produce measurably different outputs."
+
+1.PATH  pathway→thresholds
+F=[READ→ABSORB→PERCEIVE→HARMONIZE]  #patterns
+T=[RESEARCH→ANALYSE→PROCESS→HONE]   #implementation
+
+2.MARK  threshold→evidence(f|t)
+R=[facts,extraction,no_interpretation|investigation,verification]
+A=[connections,boundaries|evaluation,comparison]
+P=[patterns,frameworks|implementation,operations]
+H=[cross-domain,novel_insights|optimization,refinement]
+
+3.CMD  method→syntax
+SEQ-R-f="/RAPH-SEQ-R-f [doc]"  SEQ-R-t="/RAPH-SEQ-R-t [doc]"  #Single threshold
+SEQ-A-f="/RAPH-SEQ-A-f [doc]"  SEQ-A-t="/RAPH-SEQ-A-t [doc]"  #Through 2nd
+SEQ-P-f="/RAPH-SEQ-P-f [doc]"  SEQ-P-t="/RAPH-SEQ-P-t [doc]"  #Through 3rd
+SEQ-H-f="/RAPH-SEQ-H-f [doc]"  SEQ-H-t="/RAPH-SEQ-H-t [doc]"  #Through 4th
+COM-R-f="/RAPH-COM-R-f [doc]"  COM-R-t="/RAPH-COM-R-t [doc]"  #Focus on 1st
+COM-A-f="/RAPH-COM-A-f [doc]"  COM-A-t="/RAPH-COM-A-t [doc]"  #Focus on 2nd
+COM-P-f="/RAPH-COM-P-f [doc]"  COM-P-t="/RAPH-COM-P-t [doc]"  #Focus on 3rd
+COM-H-f="/RAPH-COM-H-f [doc]"  COM-H-t="/RAPH-COM-H-t [doc]"  #Focus on 4th
+
+4.PROC  method→implementation
+SEQ="Execute each threshold completely→capture output→use as input for next"
+COM="Execute all thresholds in sequence within single process→focus on final"
+CHOICE=[critical(SEQ)|routine(COM)]  #SEQ(9.23/10) COM(8.64/10 -41%cost)
+
+5.ROLE  role→pathway(1st,2nd)
+APOLLO=[f,t]  ARCHON=[t,f]  HERMES=[f,t]  HECATE=[dual,-]  ERGON=[t,f]  KRITION=[t,f]
+
+6.DOC  type→pathway(1st,2nd)
+CONCEPTUAL=[f,t]  IMPLEMENTATION=[t,f]  STRATEGIC=[t,f]  COMPLEX=[dual,-]  ETHICAL=[f,t]  CROSS-DOMAIN=[f,t]
+
+7.REL
+PATH(F)→cognitive(qualitative)→output(patterns)→integration(cross-domain)
+PATH(T)→cognitive(analytical)→output(implementation)→optimization(strategic)
+SEQ→constraint(enforced)→boundary(preserved)→quality(maximum)
+COM→constraint(weakened)→boundary(blurred)→quality(reduced△6.8%)
+skip→output(degraded)→system(undermined)→quality(reduced△31.3%)
+CMD(SEQ-X-f)→processing(sequential)→pathway(f)→threshold(X)
+CMD(COM-X-t)→processing(combined)→pathway(t)→threshold(X)
+ROLE→PATH→function(specialized)→output(optimized)
+
+8.PHI
+1."Sequential processing creates measurably higher quality through structured constraints."
+2."Separate execution produces 31.3% higher quality than non-sequential approaches."
+3."Each threshold must build on previous thresholds - READ quality correlates strongly (r=0.87) with HARMONIZE quality."
+4."The difference between sequential and combined processing is boundary integrity, not content."
+
+9.VAL✓
+defs✓ path✓ mark✓ cmd✓ proc✓ role✓ doc✓ rel✓ phi✓
+END

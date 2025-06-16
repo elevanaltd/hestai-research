@@ -1,0 +1,90 @@
+#!/bin/bash
+# research-lock - Lightweight lock for research directory
+# Prevents concurrent modifications to research files
+
+LOCK_FILE="/Users/shaunbuswell/dev/hestai-research/.research.lock"
+LOG_FILE="/Users/shaunbuswell/dev/hestai-research/.research-lock.log"
+
+# Logging function
+log() {
+    echo "$(date '+%Y-%m-%d %H:%M:%S') - $1" >> "$LOG_FILE"
+}
+
+case "$1" in
+    lock)
+        if [ -f "$LOCK_FILE" ]; then
+            existing_lock=$(cat "$LOCK_FILE")
+            echo "❌ Research directory is locked by: $existing_lock"
+            echo "Use 'research-lock status' for more details"
+            exit 1
+        fi
+        
+        lock_id="HERMES-$$-$(date +%s)"
+        echo "$lock_id" > "$LOCK_FILE"
+        log "LOCK ACQUIRED: $lock_id"
+        echo "✅ Research directory locked by: $lock_id"
+        ;;
+        
+    unlock)
+        if [ ! -f "$LOCK_FILE" ]; then
+            echo "⚠️  Research directory is not locked"
+            exit 0
+        fi
+        
+        lock_id=$(cat "$LOCK_FILE")
+        rm -f "$LOCK_FILE"
+        log "LOCK RELEASED: $lock_id"
+        echo "✅ Research directory unlocked (was: $lock_id)"
+        ;;
+        
+    check)
+        if [ -f "$LOCK_FILE" ]; then
+            lock_id=$(cat "$LOCK_FILE")
+            echo "🔒 Locked by: $lock_id"
+            exit 1
+        else
+            echo "🟢 Research directory available"
+            exit 0
+        fi
+        ;;
+        
+    status)
+        if [ -f "$LOCK_FILE" ]; then
+            lock_id=$(cat "$LOCK_FILE")
+            echo "🔒 Research directory is LOCKED"
+            echo "   Lock ID: $lock_id"
+            echo "   Lock file: $LOCK_FILE"
+        else
+            echo "🟢 Research directory is AVAILABLE"
+        fi
+        
+        if [ -f "$LOG_FILE" ]; then
+            echo ""
+            echo "Recent lock activity:"
+            tail -5 "$LOG_FILE"
+        fi
+        ;;
+        
+    force-unlock)
+        if [ -f "$LOCK_FILE" ]; then
+            lock_id=$(cat "$LOCK_FILE")
+            rm -f "$LOCK_FILE"
+            log "FORCE UNLOCK: $lock_id (forced)"
+            echo "⚠️  Forced unlock of: $lock_id"
+        else
+            echo "⚠️  No lock to force unlock"
+        fi
+        ;;
+        
+    *)
+        echo "Usage: research-lock {lock|unlock|check|status|force-unlock}"
+        echo ""
+        echo "Commands:"
+        echo "  lock         - Acquire lock for research directory"
+        echo "  unlock       - Release lock"
+        echo "  check        - Check if locked (exit code 0=available, 1=locked)"
+        echo "  status       - Show detailed lock status and recent activity"
+        echo "  force-unlock - Force release of any lock (use with caution)"
+        exit 1
+        ;;
+esac

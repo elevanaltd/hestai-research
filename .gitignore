@@ -1,0 +1,40 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.tmp
+*.bak
+*~
+*.swp
+*.swo
+
+# Research lock files
+.research.lock
+.research-lock.log
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+
+# Logs
+*.log
+logs/
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Auto-generated files
+FILE_INDEX.md
