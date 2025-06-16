@@ -1,6 +1,6 @@
 # HestAI Research Master Index
 
-**Total Research Documents: 136**
+**Total Research Documents: 160**
 **Last Updated: January 2025**
 **Note**: Count excludes index.md, README.md files, and meta-documentation
 
@@ -10,18 +10,21 @@ This master index catalogs the comprehensive research corpus extracted from Daed
 
 ---
 
-## 1. Empirical Validation Studies (18 documents)
+## 1. Empirical Validation Studies (20 documents)
 *Location: `/empirical-studies/`*
 
 ### Key Findings:
 - **Two-phase architecture**: 300-500% ROI from drift prevention
 - **OCTAVE protocol**: 93.5-95.8% comprehension across models
+- **OCTAVE semantics**: 100% operator comprehension, 40% deep semantic understanding
 - **Skill system**: Corrected performance metrics
 - **Critical failure modes**: Identified and documented
 
 ### Notable Studies:
 - `two-phase-architecture-empirical-validation.md`
 - `octave-validation-summary.md`
+- `octave-olympus-semantics-validation.md` (NEW)
+- `octave-semantics-degraded-comprehension-test.md` (NEW)
 - `skill-system-validation-report.md`
 - `raph-benchmarking-evidence.md`
 - `critical-failure-modes-report.md`
