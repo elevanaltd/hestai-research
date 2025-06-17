@@ -16,13 +16,18 @@ Reusable patterns for consistent research practices:
 - `PREVENTION_CHECKLIST_PATTERN.md` - Active prevention rules to follow
 - More patterns can be added as needed
 
+### Loading Protocols
+- `HERMES_RESEARCH_CURATOR_LOADING_PROTOCOL.md` - Complete activation sequence for research work
+
 ### Active Prevention Files
 - `/prevention-checklist.yaml` - **START HERE** - Read before any work
 
 ## Usage
 
 ### Loading Research Skills
-When activating HERMES for research work:
+When activating HERMES for research work, follow the HERMES_RESEARCH_CURATOR_LOADING_PROTOCOL.md for complete setup.
+
+Quick activation:
 ```bash
 load HERMES_SHANK on BUILD_ARM with RESEARCH_CURATOR
 ```

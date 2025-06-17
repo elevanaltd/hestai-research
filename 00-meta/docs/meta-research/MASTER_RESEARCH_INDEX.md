@@ -1,6 +1,6 @@
 # HestAI Research Master Index
 
-**Total Research Documents: 160**
+**Total Research Documents: 166**
 **Last Updated: January 2025**
 **Note**: Count excludes index.md, README.md files, and meta-documentation
 
@@ -31,7 +31,7 @@ This master index catalogs the comprehensive research corpus extracted from Daed
 
 ---
 
-## 2. Cognitive Architecture Research (18 documents)
+## 2. Cognitive Architecture Research (20 documents)
 *Location: `/cognitive-architecture/`*
 *Subdirectories: `discoveries/`, `frameworks/`, `triadic-models/`*
 
@@ -40,6 +40,8 @@ This master index catalogs the comprehensive research corpus extracted from Daed
 - **Triadic patterns**: PATHOS/ETHOS/LOGOS at multiple scales
 - **Actor-Director model**: Mutual awareness collaboration
 - **Sequential processing**: Superior to parallel for complex tasks
+- **Rule-following limits**: Complexity and interdependency matter more than quantity
+- **LOGOS dialectical synthesis**: LOGOS requires structured dialogue between two cognitive architectures
 
 ### Key Documents:
 - `model-cognitive-architecture-discovery.md`
@@ -47,6 +49,8 @@ This master index catalogs the comprehensive research corpus extracted from Daed
 - `01-triadic_cognitive_architecture.md`
 - `actor-director-model.md`
 - `cognitive-genome-architecture-insight.md`
+- `llm-rule-following-capacity.md` (NEW)
+- `logos-dialectical-synthesis-discovery.md` (NEW)
 
 ---
 
@@ -121,7 +125,7 @@ This master index catalogs the comprehensive research corpus extracted from Daed
 
 ---
 
-## 7. RAPH Framework (9 documents)
+## 7. RAPH Framework (10 documents)
 *Location: `/raph-framework/`*
 *Subdirectories: `benchmarking/`, `implementation/`, `specifications/`*
 
@@ -130,16 +134,18 @@ This master index catalogs the comprehensive research corpus extracted from Daed
 - **Benchmarking**: 40-60% performance improvements
 - **Implementation**: Python prompt generator
 - **Optimization**: Bullshit filtering and activation protocols
+- **Sequential loading**: Scientifically grounded but potentially over-engineered
 
 ### Key Documents:
 - `OPTIMAL-ACTIVATION-PROTOCOL.md`
 - `raph-benchmarking-evidence.md`
 - `RAPH_PROCESSING_GUIDE.md`
 - `raph_prompt_generator.py`
+- `sequential-loading-test-driven-research.md` (NEW)
 
 ---
 
-## 8. Odyssean Anchor Research (14 documents)
+## 8. Odyssean Anchor Research (15 documents)
 *Location: `/odyssean-anchor/`*
 *Subdirectories: `core-resolution/`, `evolution-timeline/`, `empirical-evidence/`, `implementation-impact/`, `theoretical-foundations/`*
 
@@ -148,33 +154,52 @@ This master index catalogs the comprehensive research corpus extracted from Daed
 - **Evolution timeline**: From PATHOS restriction to resolution
 - **Empirical validation**: Performance benchmarks
 - **Implementation impacts**: System-wide architectural changes
+- **Research alignment**: Matches hierarchical and decomposed prompting (6-12% gains)
 
 ### Key Documents:
 - `ODYSSEAN_ANCHOR_FINDINGS.md`
 - `18-shaunos-odyssean-anchor-resolution.md`
 - `20-ethos-validation-odyssean-anchor-shank-arm-fluke.md`
+- `shank-arm-fluke-architecture-research.md` (NEW)
+
+---
+
+## 9. System Research (2 documents)
+*Location: `/system-research/`*
+
+### External System Analysis:
+- **Open-source AI agent systems**: Memory and reasoning architectures
+- **19 systems analyzed total**: 
+  - Established systems (9): Kilo Code, Roo Code, Cline, GPT-Engineer, Smol Developer, CrewAI, Agno, MetaGPT, CAMEL
+  - Emerging infrastructure (10): Zen-MCP, Roo Code, Atlas, Atomic Agents, Pydantic-AI, AG2, Google ADK, Agno, Symphony
+- **Key patterns**: Memory banks, multi-agent orchestration, Plan/Act paradigms, A2A protocols, multi-model routing
+- **Direct relevance**: Informs HestAI memory, reasoning, and orchestration design decisions
+
+### Key Documents:
+- `open-source-ai-agent-systems.md`
+- `promising-ai-agent-infrastructure.md`
 
 ---
 
 ## Additional Research Categories
 
-### 9. Database Architecture (2 documents)
+### 10. Database Architecture (2 documents)
 *Location: `/database-architecture/`*
 - Firebase vs Supabase robustness comparison
 - Supabase evaluation for HestAI needs
 
-### 10. Evidence & Validation (5 documents)
+### 11. Evidence & Validation (5 documents)
 *Location: `/evidence/`*
 *Subdirectories: `benchmarking/`, `cost-analysis/`, `performance-metrics/`, `user-studies/`*
 - Validation reports and performance metrics
 - Statistical analyses and user study results
 
-### 11. Claude Code Integration (2 documents)
+### 12. Claude Code Integration (2 documents)
 *Location: `/claude-code/`*
 - Commands reference and configuration guides
 - Integration patterns with HestAI system
 
-### 12. Unverified Claims (1 document)
+### 13. Unverified Claims (1 document)
 *Location: `/unverified-claims/`*
 - Audit report tracking claims requiring validation
 
