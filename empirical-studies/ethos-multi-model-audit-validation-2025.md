@@ -130,7 +130,7 @@ Your task is to conduct a complete audit of all HestAI Skills and Patterns.
 3. **Document role loading failures**: Create protocols for detecting and handling role loading failures
 
 ### Research Extensions
-1. **Replicate with other roles**: Test PATHOS, LOGOS, HERMES across same model set
+1. **Replicate with other roles**: Test PATHOS, HERMES across same model set ✓ **LOGOS completed** (empirical-studies/logos-model-comparison-system-analysis-2025.md)
 2. **Quantify performance metrics**: Measure constitutional compliance scores
 3. **Validate consensus patterns**: Test if multi-model consensus predicts real architectural issues
 
@@ -158,6 +158,7 @@ Full audit reports preserved in appendices for future analysis and cross-referen
 - **Identity Awareness Enhancement** (cognitive-architecture/identity-awareness-vs-replacement-validation.md): This study provides the empirical evidence base
 - **SHANK-ARM-FLUKE Boundary Validation** (architectural-studies/shank-arm-fluke-boundary-validation-ethos-audit.md): Analysis of boundary detection patterns
 - **Actor-Director Model Implementation** (cognitive-architecture/discoveries/actor-director-model.md:14): Validates "mutual awareness of role-as-performance"
+- **Model-Role Matrix Validation** (empirical-studies/model-role-matrix-comprehensive-test-2025.md): Quantitative validation showing Claude Opus 4 as optimal ETHOS (0.817 score)
 
 ### Supporting Research Context  
 - **LLM Role Loading Technical Reality** (cognitive-architecture/llm-role-loading-technical-reality.md:11): "Role loading creates genuine behavioral differences in LLM outputs"

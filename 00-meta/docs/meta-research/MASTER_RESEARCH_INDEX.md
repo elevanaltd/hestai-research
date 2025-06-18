@@ -1,6 +1,6 @@
 # HestAI Research Master Index
 
-**Total Research Documents: 166**
+**Total Research Documents: 181**
 **Last Updated: January 2025**
 **Note**: Count excludes index.md, README.md files, and meta-documentation
 
@@ -10,28 +10,37 @@ This master index catalogs the comprehensive research corpus extracted from Daed
 
 ---
 
-## 1. Empirical Validation Studies (20 documents)
+## 1. Empirical Validation Studies (25 documents)
 *Location: `/empirical-studies/`*
 
 ### Key Findings:
 - **Two-phase architecture**: 300-500% ROI from drift prevention
 - **OCTAVE protocol**: 93.5-95.8% comprehension across models
 - **OCTAVE semantics**: 100% operator comprehension, 40% deep semantic understanding
+- **OCTAVE nano agent validation**: 100% specification gap identification match (NEW)
 - **Skill system**: Corrected performance metrics
 - **Critical failure modes**: Identified and documented
+- **Multi-model role loading**: 75% success rate, measurable performance differences (NEW)
+- **Model-specific analytical patterns**: Complementary strengths in role performance (NEW)
+- **Model-role matrix validation**: Quantitative performance scores across all combinations (NEW)
 
 ### Notable Studies:
 - `two-phase-architecture-empirical-validation.md`
 - `octave-validation-summary.md`
 - `octave-olympus-semantics-validation.md` (NEW)
 - `octave-semantics-degraded-comprehension-test.md` (NEW)
+- `octave-nano-agent-comprehension-validation-2025.md` (NEW)
+- `ethos-multi-model-audit-validation-2025.md` (NEW)
+- `logos-model-comparison-system-analysis-2025.md` (NEW)
+- `model-role-matrix-comprehensive-test-2025.md` (NEW)
+- `improved-role-testing-scenarios-2025.md` (NEW)
 - `skill-system-validation-report.md`
 - `raph-benchmarking-evidence.md`
 - `critical-failure-modes-report.md`
 
 ---
 
-## 2. Cognitive Architecture Research (20 documents)
+## 2. Cognitive Architecture Research (21 documents)
 *Location: `/cognitive-architecture/`*
 *Subdirectories: `discoveries/`, `frameworks/`, `triadic-models/`*
 
@@ -42,12 +51,14 @@ This master index catalogs the comprehensive research corpus extracted from Daed
 - **Sequential processing**: Superior to parallel for complex tasks
 - **Rule-following limits**: Complexity and interdependency matter more than quantity
 - **LOGOS dialectical synthesis**: LOGOS requires structured dialogue between two cognitive architectures
+- **Identity awareness enhancement**: Conscious role performance > identity replacement (NEW)
 
 ### Key Documents:
 - `model-cognitive-architecture-discovery.md`
 - `cross-model-cognitive-insights.md`
 - `01-triadic_cognitive_architecture.md`
 - `actor-director-model.md`
+- `identity-awareness-vs-replacement-validation.md` (NEW)
 - `cognitive-genome-architecture-insight.md`
 - `llm-rule-following-capacity.md` (NEW)
 - `logos-dialectical-synthesis-discovery.md` (NEW)
@@ -88,7 +99,7 @@ This master index catalogs the comprehensive research corpus extracted from Daed
 
 ---
 
-## 5. Architectural Studies (34 documents)
+## 5. Architectural Studies (36 documents)
 *Location: `/architectural-studies/`*
 *Subdirectories: `orchestration/`, `workshop/`*
 
@@ -96,7 +107,8 @@ This master index catalogs the comprehensive research corpus extracted from Daed
 - **Workshop system**: Specifications and implementation plans
 - **Sequential cognitive bootstrapping**: Greek philosophical foundations
 - **Multi-agent orchestration**: n8n patterns and orchestral frameworks
-- **SHANK-ARM-FLUKE**: Architecture pattern validation
+- **SHANK-ARM-FLUKE**: Architecture pattern validation and empirical boundary detection (NEW)
+- **Distributed Product Architecture**: Multiple products sharing architectural DNA (NEW)
 - **Odyssean Anchor**: Resolution and validation studies
 
 ### Key Documents:
@@ -104,6 +116,8 @@ This master index catalogs the comprehensive research corpus extracted from Daed
 - `08-thymos-architectural-blueprint.md`
 - `07-sequential-cognitive-bootstrapping.md`
 - `17-shaft-fluke-architecture-pattern.md`
+- `shank-arm-fluke-boundary-validation-ethos-audit.md` (NEW)
+- `distributed-product-architecture-pattern-2025.md` (NEW)
 - `18-shaunos-odyssean-anchor-resolution.md`
 
 ---
@@ -145,7 +159,33 @@ This master index catalogs the comprehensive research corpus extracted from Daed
 
 ---
 
-## 8. Odyssean Anchor Research (15 documents)
+## 8. HestAI Operating System (7 documents)
+*Location: `/hestai-operating-system/`*
+
+### Implementation Research:
+- **Persistent AI services** as always-on desktop layer
+- **System integration patterns** for macOS daemon deployment
+- **Cost-optimized operation** using nano models (Flash-Lite)
+- **Multi-model orchestration** with fallback strategies
+- **Production deployment challenges** and failure mode mitigation (NEW)
+- **Redis messaging architecture** for inter-process communication (NEW)
+- **Multi-application coordination** with shared Python backends (NEW)
+- **Multi-agent AI orchestration** with role management frameworks (NEW)
+- **macOS app framework comparison** for multi-role AI chat applications (NEW)
+- **Architecture decision report** for local multi-app orchestration patterns (NEW)
+
+### Key Documents:
+- `gemini-flash-lite-persistent-daemon-implementation.md`
+- `production-deployment-gotchas-2025.md` (NEW)
+- `redis-pub-sub-streams-messaging-architecture-2025.md` (NEW)
+- `multi-application-architecture-shared-python-backends-2025.md` (NEW)
+- `multi-agent-ai-orchestration-role-management-2025.md` (NEW)
+- `mac-app-frameworks-multi-role-ai-chat-comparison-2025.md` (NEW)
+- `architecture-decision-report-local-multi-app-orchestration-macos-2025.md` (NEW)
+
+---
+
+## 9. Odyssean Anchor Research (15 documents)
 *Location: `/odyssean-anchor/`*
 *Subdirectories: `core-resolution/`, `evolution-timeline/`, `empirical-evidence/`, `implementation-impact/`, `theoretical-foundations/`*
 
