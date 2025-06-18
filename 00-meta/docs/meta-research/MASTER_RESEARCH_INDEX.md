@@ -1,6 +1,6 @@
 # HestAI Research Master Index
 
-**Total Research Documents: 181**
+**Total Research Documents: 183**
 **Last Updated: January 2025**
 **Note**: Count excludes index.md, README.md files, and meta-documentation
 
@@ -10,7 +10,7 @@ This master index catalogs the comprehensive research corpus extracted from Daed
 
 ---
 
-## 1. Empirical Validation Studies (25 documents)
+## 1. Empirical Validation Studies (27 documents)
 *Location: `/empirical-studies/`*
 
 ### Key Findings:
@@ -23,6 +23,8 @@ This master index catalogs the comprehensive research corpus extracted from Daed
 - **Multi-model role loading**: 75% success rate, measurable performance differences (NEW)
 - **Model-specific analytical patterns**: Complementary strengths in role performance (NEW)
 - **Model-role matrix validation**: Quantitative performance scores across all combinations (NEW)
+- **Development methodology comparison**: Atomic tasks methodology shows superior quality vs automated orchestration (NEW)
+- **Role constraint necessity**: Empirical validation that roles revert to base patterns without explicit constraints (NEW)
 
 ### Notable Studies:
 - `two-phase-architecture-empirical-validation.md`
@@ -34,6 +36,8 @@ This master index catalogs the comprehensive research corpus extracted from Daed
 - `logos-model-comparison-system-analysis-2025.md` (NEW)
 - `model-role-matrix-comprehensive-test-2025.md` (NEW)
 - `improved-role-testing-scenarios-2025.md` (NEW)
+- `ethos-audit-zen-mcp-vs-daedalus-design-atomic-tasks-2025.md` (NEW)
+- `pathos-build-sprint-violation-empirical-evidence-2025-06-18.md` (NEW)
 - `skill-system-validation-report.md`
 - `raph-benchmarking-evidence.md`
 - `critical-failure-modes-report.md`
