@@ -1,7 +1,8 @@
-# ETHOS Audit: zen-mcp vs Daedalus-Design Atomic Tasks Methodology
+# ETHOS Audit: zen-mcp vs Daedalus-Design Atomic Tasks Methodology [SIMULATION]
 
 **Research Date**: 2025-06-18  
 **Category**: Empirical Studies  
+**Type**: SIMULATION - Theoretical comparative analysis, not live production tests
 **Focus**: Development methodology comparison and atomic task adherence  
 **Source**: ETHOS audit of project structures and Claude Code assessment
 
