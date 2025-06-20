@@ -1,7 +1,7 @@
 # HestAI Research Master Index
 
-**Total Research Documents: 192**
-**Last Updated: January 2025**
+**Total Research Documents: 200**
+**Last Updated: June 2025**
 **Note**: Count excludes index.md, README.md files, and meta-documentation
 
 ## Overview
@@ -10,16 +10,20 @@ This master index catalogs the comprehensive research corpus extracted from Daed
 
 ---
 
-## 1. Empirical Validation Studies (29 documents)
+## 1. Empirical Validation Studies (36 documents)
 *Location: `/empirical-studies/`*
 
 ### Key Findings:
 - **Two-phase architecture**: 300-500% ROI from drift prevention
 - **OCTAVE protocol**: 93.5-95.8% comprehension across models
 - **OCTAVE semantics**: 100% operator comprehension, 40% deep semantic understanding
-- **OCTAVE mythological semantics**: 100% comprehension with 60-75% token reduction, 10x semantic density (NEW)
-- **OCTAVE complete semantic coverage**: All 35 mythological elements validated with 100% comprehension (NEW)
+- **OCTAVE mythological semantics**: 100% comprehension with 60-75% token reduction, 10x semantic density
+- **OCTAVE complete semantic coverage**: All 35 mythological elements validated with 100% comprehension
+- **OCTAVE LLM-to-LLM passthrough**: Zero syntax failures, full semantic preservation (NEW)
+- **OCTAVE generation capability**: Models can generate OCTAVE format when requested (NEW)
 - **OCTAVE nano agent validation**: 100% specification gap identification match (NEW)
+- **ETHOS zen-mcp vs warp**: Enhanced OCTAVE role loading through zen-mcp chat demonstrates superior accuracy to both specialized security tools and direct chat; mcp__zen__codereview has systematic false positive bias regardless of role enhancement (NEW)
+- **zen-mcp tool vs OCTAVE comparison**: Comprehensive tool evaluation framework establishing mcp__zen__chat as gold standard for enhanced role analysis with 100% technical accuracy vs 0% for specialized tools (NEW)
 - **Skill system**: Corrected performance metrics
 - **Critical failure modes**: Identified and documented
 - **Multi-model role loading**: 75% success rate, measurable performance differences (NEW)
@@ -34,8 +38,11 @@ This master index catalogs the comprehensive research corpus extracted from Daed
 - `octave-validation-summary.md`
 - `octave-olympus-semantics-validation.md` (NEW)
 - `octave-semantics-degraded-comprehension-test.md` (NEW)
-- `octave-mythological-semantics-comprehension-test-2025-06-19.md` (NEW)
-- `octave-complete-semantic-coverage-report-2025-06-19.md` (NEW)
+- `octave-semantic-coverage-validation-2025.md` (NEW)
+- `octave-llm-passthrough-validation-2025.md` (NEW)
+- `octave-mythological-comprehension-summary-2025.md` (NEW)
+- `octave-mythological-semantics-test-001-2025.md` (NEW)
+- `octave-generation-analysis-2025.md` (NEW)
 - `octave-nano-agent-comprehension-validation-2025.md` (NEW)
 - `ethos-multi-model-audit-validation-2025.md` (NEW)
 - `logos-model-comparison-system-analysis-2025.md` (NEW)
@@ -43,6 +50,8 @@ This master index catalogs the comprehensive research corpus extracted from Daed
 - `improved-role-testing-scenarios-2025.md` (NEW)
 - `pathos-build-sprint-violation-empirical-evidence-2025-06-18.md` (NEW)
 - `logos-preparation-execution-violation-empirical-evidence-2025-06-18.md` (NEW)
+- `ethos-zen-mcp-vs-warp-security-analysis-comparison-2025.md` (NEW)
+- `zen-mcp-tool-vs-octave-enhanced-prompts-comparison-2025.md` (NEW)
 - `skill-system-validation-report.md`
 - `raph-benchmarking-evidence.md`
 - `critical-failure-modes-report.md`
@@ -266,24 +275,33 @@ This master index catalogs the comprehensive research corpus extracted from Daed
 - Validation reports and performance metrics
 - Statistical analyses and user study results
 
-### 13. Implementation Studies (2 documents)
+### 13. Implementation Studies (1 document)
 *Location: `/implementation-studies/`*
-- LLM training priorities for HESTAI platform development
-- MCP protocol integration patterns
-- Architecture-specific code generation recommendations
 - Zen-MCP tools comprehensive reference and cost optimization patterns
 - Multi-model orchestration and thinking depth controls
+- MCP protocol integration patterns
+
+**Key Documents:**
+- `zen-mcp-tools-comprehensive-guide-2025.md`
+
+### 14. LLM Training (2 documents)
+*Location: `/llm-training/`*
+- LLM training priorities for HESTAI platform development
+- MCP protocol deep understanding requirements
+- HESTAI-specific pattern recognition training
+- Architecture-specific code generation improvements
+- OCTAVE-optimized training specifications with 15x semantic compression
 
 **Key Documents:**
 - `llm-training-priorities-hestai-platform-2025.md`
-- `zen-mcp-tools-comprehensive-guide-2025.md`
+- `llm-training-priorities-hestai-platform-2025-llm-optimised.oct.md`
 
-### 14. Claude Code Integration (2 documents)
+### 15. Claude Code Integration (2 documents)
 *Location: `/claude-code/`*
 - Commands reference and configuration guides
 - Integration patterns with HestAI system
 
-### 15. Unverified Claims (1 document)
+### 16. Unverified Claims (1 document)
 *Location: `/unverified-claims/`*
 - Audit report tracking claims requiring validation
 
