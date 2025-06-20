@@ -21,6 +21,13 @@ Task assignments and tracking:
 - `completed/` - Archive of completed tasks
 - Future task categories can be added as needed
 
+### `/inbox/` 
+Research insight collection point:
+- `active/` - New insights and observations
+- `processed/` - Insights synthesized into research
+- `archive/` - Historical processed insights
+- Drop observations here for research synthesis
+
 ## Usage
 
 ### For HERMES Research Work
@@ -43,4 +50,4 @@ load HERMES_SHANK on BUILD_ARM with RESEARCH_CURATOR
 The `00-` prefix ensures this meta directory appears first in listings, making it easy to find organizational materials.
 
 ---
-*Last updated: January 2025*
+*Last updated: June 2025*
