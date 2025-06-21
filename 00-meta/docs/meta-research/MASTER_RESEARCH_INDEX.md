@@ -1,6 +1,6 @@
 # HestAI Research Master Index
 
-**Total Research Documents: 241**
+**Total Research Documents: 242**
 **Last Updated: June 2025 (Post-HERMES Reorganization)**
 **Note**: Count includes all markdown files; structure completely reorganized by HERMES
 
@@ -57,6 +57,8 @@ The research is now organized into these major categories:
 - **Development methodology comparison**: Atomic tasks methodology shows superior quality vs automated orchestration (NEW)
 - **Role constraint necessity**: Empirical validation that roles revert to base patterns without explicit constraints (NEW)
 - **Grammatical instruction parsing**: Critical failure mode where preparatory instructions are misinterpreted as execution permissions (NEW)
+- **Claude Code dynamic task management**: Breakthrough solution achieving 100% role restoration through workflow integration vs meta-instruction (NEW)
+- **Context stream effectiveness**: 15x faster re-orientation vs full history review (NEW)
 
 ### Notable Studies:
 - `two-phase-architecture-empirical-validation.md`
@@ -77,6 +79,8 @@ The research is now organized into these major categories:
 - `logos-preparation-execution-violation-empirical-evidence-2025-06-18.md` (NEW)
 - `ethos-zen-mcp-vs-warp-security-analysis-comparison-2025.md` (NEW)
 - `zen-mcp-tool-vs-octave-enhanced-prompts-comparison-2025.md` (NEW)
+- `claude-code-dynamic-task-management-breakthrough-2025.md` (NEW)
+- `context-stream-effectiveness-validation-2025.md` (NEW)
 - `skill-system-validation-report.md`
 - `raph-benchmarking-evidence.md`
 - `critical-failure-modes-report.md`
