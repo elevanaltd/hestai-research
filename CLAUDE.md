@@ -1,7 +1,7 @@
 # CLAUDE.md - HestAI Research Integration
 
 ## Research Directory Overview
-You are operating within the HestAI research directory, which contains 136 empirical research documents that form the theoretical foundation of the HestAI system. This directory serves as the knowledge base for understanding and evolving the system's cognitive architectures, patterns, and implementations.
+You are operating within the HestAI research directory, which contains 241 research documents (post-HERMES reorganization) that trace the evolution from Thymos orchestral concepts through Daedalus workshop metaphors to the modern HestAI system. This directory serves as the knowledge base for understanding system evolution, cognitive architectures, and empirical validations.
 
 ## Documentation Structure
 All meta-level organization is in the `/00-meta/` directory:
@@ -10,7 +10,12 @@ All meta-level organization is in the `/00-meta/` directory:
 - `/00-meta/tasks/` - Task assignments for research assistants
 - `/00-meta/README.md` - Complete guide to the meta structure
 
-Research documents remain in their category directories at the root level.
+Research documents are organized into clear categories:
+- `system-evolution/` - Historical development timelines (Thymos→Daedalus→HestAI)
+- `empirical-studies/` - Current validation research  
+- `theoretical-foundations/` - Major breakthroughs and discoveries
+- `empirical-evidence/` - Structured validation studies
+- Plus specialized research in cognitive architecture, cost analysis, zen-mcp integration, etc.
 
 ## Integration with HestAI System
 This research directory is closely linked to the HestAI system at:

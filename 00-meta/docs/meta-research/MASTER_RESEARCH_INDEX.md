@@ -1,16 +1,41 @@
 # HestAI Research Master Index
 
-**Total Research Documents: 200**
-**Last Updated: June 2025**
-**Note**: Count excludes index.md, README.md files, and meta-documentation
+**Total Research Documents: 241**
+**Last Updated: June 2025 (Post-HERMES Reorganization)**
+**Note**: Count includes all markdown files; structure completely reorganized by HERMES
 
 ## Overview
 
-This master index catalogs the comprehensive research corpus extracted from Daedalus Project, HESTIA, hestai-project, and thymos projects. The research validates the HestAI Workshop System concept through empirical studies, cognitive architecture discoveries, cost analyses, and real-world implementation evidence.
+This master index catalogs the comprehensive research corpus that traces the evolution from Thymos orchestral concepts through Daedalus workshop metaphors to the modern HestAI role-based system. HERMES has reorganized the research into clear categories that separate empirical evidence, operational guides, theoretical foundations, and system evolution timelines.
+
+## Post-Reorganization Structure
+
+The research is now organized into these major categories:
+- **Empirical Studies** - Current validation research
+- **Empirical Evidence/Validation Reports** - Structured validation studies  
+- **Theoretical Foundations** - Core discoveries and frameworks
+- **System Evolution** - Historical development timelines (Thymos→Daedalus→HestAI)
+- **Operational Content** - Active tools, guides, and implementations
+- **Specialized Research** - Cognitive architecture, cost analysis, pattern learning
 
 ---
 
-## 1. Empirical Validation Studies (36 documents)
+## 1. System Evolution Timeline (30 documents)
+*Location: `/system-evolution/`*
+
+### Historical Development Archive
+- **Main Development (01-20)**: 20 documents showing Thymos→Daedalus→HestAI progression
+- **Workshop Evolution (00-04)**: 5 documents focused on Daedalus workshop concepts
+- **Cross-System Evolution**: Timeline preserving chronological development decisions
+
+### Key System Markers:
+- **[THYMOS]**: Orchestral framework concepts (items 05-11)
+- **[DAEDALUS]**: Workshop metaphor development (items 01-04, workshop sequence)
+- **[HESTAI]**: Modern role-based architecture (items 15-20, SHANK-ARM-FLUKE)
+
+---
+
+## 2. Empirical Validation Studies (38 documents)
 *Location: `/empirical-studies/`*
 
 ### Key Findings:
@@ -58,7 +83,18 @@ This master index catalogs the comprehensive research corpus extracted from Daed
 
 ---
 
-## 2. Empirical Zen-MCP Studies (5 documents)
+## 3. Empirical Evidence & Validation Reports (5 documents)
+*Location: `/empirical-evidence/validation-reports/`*
+
+### Structured Validation Studies
+- **HestAI Context Window Handling**: Research on LLM context management strategies
+- **Manual Multi-Agent Orchestration**: Validation of coordination approaches  
+- **SHANK-ARM-FLUKE Validation**: Empirical validation of core architectural boundaries
+- **Thymos Orchestral Metaphor**: Empirical validation of orchestral framework
+
+---
+
+## 4. Empirical Zen-MCP Studies (6 documents)
 *Location: `/empirical-zen-mcp/`*
 
 ### Key Findings:
@@ -81,7 +117,24 @@ This master index catalogs the comprehensive research corpus extracted from Daed
 
 ---
 
-## 3. Cognitive Architecture Research (21 documents)
+## 5. Theoretical Foundations (7 documents)
+*Location: `/theoretical-foundations/`*
+*Subdirectories: `discoveries/`, `research-frameworks/`*
+
+### Major Theoretical Breakthroughs
+- **Actor-Director Model**: Human-AI role collaboration breakthrough
+- **Distributed Product Architecture Pattern**: Multi-product system strategy
+- **Thymos Orchestral Framework**: Musical metaphor for AI orchestration
+- **Role Analysis Studies**: Apollo and Hermes orchestral role specifications
+
+### Cross-System Theoretical Patterns
+- Discovery context and timing documentation
+- Evidence of 3+ manifestations per pattern
+- Practical implementation guidance
+
+---
+
+## 6. Cognitive Architecture Research (21 documents)
 *Location: `/cognitive-architecture/`*
 *Subdirectories: `discoveries/`, `frameworks/`, `triadic-models/`*
 
