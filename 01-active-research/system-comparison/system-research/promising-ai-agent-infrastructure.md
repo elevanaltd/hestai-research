@@ -19,6 +19,8 @@ As a fresh project, Zen-MCP is self-hosted and requires API access to multiple c
 ### Integration Potential
 For a system like HestAI, Zen-MCP's approach to model routing and context persistence could inspire a model-agnostic tool router. HestAI could use a similar server to route queries to specialized models (e.g. a coding model vs. a math model) while maintaining a unified memory of the conversation. This concept complements HestAI's memory: instead of one big agent, you orchestrate an ensemble of experts sharing state.
 
+**Critical Update (2025-01-23)**: A detailed analysis reveals that zen-mcp's "context revival" approach fundamentally misunderstands context restoration, providing only reference awareness without actual capability restoration. See full analysis: (empirical-studies/zen-mcp-context-revival-critical-analysis-vs-hestai-2025.md)
+
 ---
 
 ## Roo Code (Autonomous VS Code Agent)

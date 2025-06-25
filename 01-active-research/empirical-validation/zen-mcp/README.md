@@ -18,6 +18,7 @@ Zen-MCP is a tool orchestration protocol that allows AI models to interact with 
 - **Cost Optimization**: 50-86% cost reduction through phase-aware model selection
 - **North Star Validation**: 85.7% alignment score with multi-screen command center vision
 - **Conversation Memory**: Killer feature enabling seamless multi-tool workflows
+- **Role Loading Method Critical**: Prompt-embedded role content shows 3x effectiveness vs file parameter reference
 
 ## Documents
 
@@ -46,9 +47,14 @@ Zen-MCP is a tool orchestration protocol that allows AI models to interact with 
    - Tool functionality validation
    - 65% North Star alignment assessment
 
+5. **zen-mcp-role-loading-method-discovery-2025-06-23.md** [DISCOVERY] (NEW)
+   - Critical finding: prompt-embedded role content shows 3x effectiveness vs file parameters
+   - Comparison of two zen-mcp role loading methods with measurable results
+   - Process improvement discovery affecting all zen-mcp validations
+
 ### Simulations (Theoretical Analysis)
 
-5. **ethos-audit-zen-mcp-vs-daedalus-design-atomic-tasks-2025.md** [SIMULATION]
+6. **ethos-audit-zen-mcp-vs-daedalus-design-atomic-tasks-2025.md** [SIMULATION]
    - Theoretical comparison of development methodologies
    - Simulated ETHOS role audit findings
    - Projected quality and maintainability differences
@@ -57,13 +63,14 @@ Zen-MCP is a tool orchestration protocol that allows AI models to interact with 
 
 Based on empirical evidence, when using Zen-MCP with HestAI:
 1. Default to HestAI role loading for production work
-2. Enable cross-role fan-out for complex tasks
-3. Use micro-capsule tokens (120) for auxiliary role insights
-4. Accept role loading overhead (360 tokens) for quality gains
+2. **Embed role content in prompts** rather than using file parameters (3x effectiveness)
+3. Enable cross-role fan-out for complex tasks
+4. Use micro-capsule tokens (120) for auxiliary role insights
+5. Accept role loading overhead (360 tokens) for quality gains
 
 ## Strategic Validation
 
-With 4 real tests and 1 simulation study, plus 6 working prototypes, this category provides strong empirical evidence that:
+With 5 real tests/discoveries and 1 simulation study, plus 6 working prototypes, this category provides strong empirical evidence that:
 
 1. **HestAI + Zen-MCP architecture is proven** - 85.7% actual North Star alignment measured
 2. **Economic benefits are real** - 50-86% cost reduction demonstrated in production

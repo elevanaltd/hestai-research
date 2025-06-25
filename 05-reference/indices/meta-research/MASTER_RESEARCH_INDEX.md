@@ -1,6 +1,6 @@
 # HestAI Research Master Index
 
-**Total Research Documents: 243**
+**Total Research Documents: 244**
 **Last Updated: January 2025 (Post-HERMES Reorganization)**
 **Note**: Count includes all markdown files; structure completely reorganized by HERMES
 
@@ -100,7 +100,7 @@ The research is now organized into these major categories:
 
 ---
 
-## 4. Empirical Zen-MCP Studies (6 documents)
+## 4. Empirical Zen-MCP Studies (7 documents)
 *Location: `/empirical-zen-mcp/`*
 
 ### Key Findings:
@@ -113,12 +113,14 @@ The research is now organized into these major categories:
 - **North Star alignment**: Zen-MCP architecture validates distributed AI orchestration vision
 - **Strategic validation**: 6 working prototypes prove HestAI OS vision is achievable today (NEW)
 - **Infrastructure validation**: 3-hour comprehensive testing shows production-ready zen-mcp with 65% North Star alignment (NEW)
+- **Role loading method discovery**: Prompt-embedded role content shows 3x effectiveness vs file parameter reference, proper activation protocols essential (NEW)
 
 ### Notable Studies:
 - `zen-mcp-v3-hestai-role-loading-test-results-2025.md` (REAL TEST)
 - `zen-mcp-v3-testing-executive-report-2025-06-19.md` (REAL TEST)
 - `zen-mcp-v3-testing-strategic-summary-2025-06-19.md` (REAL TEST)
 - `zen-mcp-complete-testing-report-2025-06-17.md` (REAL TEST) (NEW)
+- `zen-mcp-role-loading-method-discovery-2025-06-23.md` (DISCOVERY) (NEW)
 - `ethos-audit-zen-mcp-vs-daedalus-design-atomic-tasks-2025.md` (SIMULATION)
 
 ---
