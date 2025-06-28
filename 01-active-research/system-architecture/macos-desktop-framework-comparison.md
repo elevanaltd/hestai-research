@@ -1,5 +1,7 @@
 # Comparing Desktop App Frameworks for macOS Development
 
+**Compressed Version Available**: compressed/macos-desktop-framework-comparison.oct.md
+
 Building a professional-grade macOS application requires choosing the right framework. Below, we compare several modern desktop app frameworks – Electron, Tauri, Wails, SwiftUI (native macOS), Flutter, PySide6/Qt, and Kivy – across key factors such as macOS (M-series) compatibility, packaging/distribution, backend integration, performance, tooling, UI/UX fidelity, community support, AI code-generation friendliness, and common pitfalls.
 
 ## Comparison Table: Frameworks at a Glance

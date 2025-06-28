@@ -3,7 +3,8 @@
 **Date:** 2025-06-25  
 **Type:** System Architecture Research  
 **Focus:** Native MacOS AI Application Development  
-**Scope:** Multi-LLM Integration, Resource Management, Platform Optimization
+**Scope:** Multi-LLM Integration, Resource Management, Platform Optimization  
+**Compressed Version Available**: compressed/macos-ai-application-research.oct.md
 
 ---
 
