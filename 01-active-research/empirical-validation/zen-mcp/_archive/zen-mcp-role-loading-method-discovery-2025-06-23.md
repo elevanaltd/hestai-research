@@ -30,7 +30,7 @@ mcp__zen__chat(
 )
 ```
 
-**Result**: 
+**Result**:
 - Proper role activation with identity confirmation
 - Deep "both/and" synthesis thinking
 - Concrete specifications with code examples

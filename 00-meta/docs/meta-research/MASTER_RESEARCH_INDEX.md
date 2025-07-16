@@ -1,7 +1,7 @@
 # HestAI Research Master Index
 
-**Total Research Documents: 243**
-**Last Updated: January 2025 (Post-HERMES Reorganization)**
+**Total Research Documents: 248**
+**Last Updated: July 2025 (Post-HERMES Reorganization)**
 **Note**: Count includes all markdown files; structure completely reorganized by HERMES
 
 ## Overview
@@ -35,7 +35,7 @@ The research is now organized into these major categories:
 
 ---
 
-## 2. Empirical Validation Studies (39 documents)
+## 2. Empirical Validation Studies (41 documents)
 *Location: `/empirical-studies/`*
 
 ### Key Findings:
@@ -58,8 +58,11 @@ The research is now organized into these major categories:
 - **Role constraint necessity**: Empirical validation that roles revert to base patterns without explicit constraints (NEW)
 - **Grammatical instruction parsing**: Critical failure mode where preparatory instructions are misinterpreted as execution permissions (NEW)
 - **Claude Code dynamic task management**: Breakthrough solution achieving 100% role restoration through workflow integration vs meta-instruction (NEW)
+- **BUILD phase atomic task pattern**: Comprehensive pattern for compaction recovery through workflow integration (NEW)
 - **Context stream effectiveness**: 15x faster re-orientation vs full history review (NEW)
 - **zen-mcp context revival vs HestAI**: Critical analysis reveals zen-mcp provides reference awareness without actual context restoration, while HestAI achieves 100% quality restoration through workflow integration (NEW)
+- **Agno framework integration**: Comprehensive multi-provider orchestration validated with OCTAVE format superiority, achieving 93.3% performance with Gemini-2.5-Pro and successful GPT-4/Claude/Gemini collaboration (NEW)
+- **LOGOS loading protocol paradigm blindness**: LLMs demonstrate systematic paradigm blindness to the effectiveness of their own loading protocols and should not be trusted to assess or optimize them; full loading protocols enable superior synthesis vs simplified approaches (NEW)
 
 ### Notable Studies:
 - `two-phase-architecture-empirical-validation.md`
@@ -81,8 +84,11 @@ The research is now organized into these major categories:
 - `ethos-zen-mcp-vs-warp-security-analysis-comparison-2025.md` (NEW)
 - `zen-mcp-tool-vs-octave-enhanced-prompts-comparison-2025.md` (NEW)
 - `claude-code-dynamic-task-management-breakthrough-2025.md` (NEW)
+- `build-phase-atomic-task-compaction-recovery-pattern-2025.md` (NEW)
 - `context-stream-effectiveness-validation-2025.md` (NEW)
 - `zen-mcp-context-revival-critical-analysis-vs-hestai-2025.md` (NEW)
+- `agno-framework-comprehensive-integration-research-2025.md` (NEW)
+- `LOGOS_LOADING_PROTOCOL_HUMBLING_REPORT.md` (NEW)
 - `skill-system-validation-report.md`
 - `raph-benchmarking-evidence.md`
 - `critical-failure-modes-report.md`
@@ -100,8 +106,8 @@ The research is now organized into these major categories:
 
 ---
 
-## 4. Empirical Zen-MCP Studies (6 documents)
-*Location: `/empirical-zen-mcp/`*
+## 4. Empirical Zen-MCP Studies (7 documents)
+*Location: `/01-active-research/empirical-validation/zen-mcp/`*
 
 ### Key Findings:
 - **HestAI role loading superiority**: 2x value per token vs standard approach (confirmed across multiple tests)
@@ -113,12 +119,14 @@ The research is now organized into these major categories:
 - **North Star alignment**: Zen-MCP architecture validates distributed AI orchestration vision
 - **Strategic validation**: 6 working prototypes prove HestAI OS vision is achievable today (NEW)
 - **Infrastructure validation**: 3-hour comprehensive testing shows production-ready zen-mcp with 65% North Star alignment (NEW)
+- **Architectural compatibility analysis**: Zen-mcp-server has excellent foundations but requires fork for HestAI due to hardcoded system prompts and missing role loading (NEW)
 
 ### Notable Studies:
 - `zen-mcp-v3-hestai-role-loading-test-results-2025.md` (REAL TEST)
 - `zen-mcp-v3-testing-executive-report-2025-06-19.md` (REAL TEST)
 - `zen-mcp-v3-testing-strategic-summary-2025-06-19.md` (REAL TEST)
 - `zen-mcp-complete-testing-report-2025-06-17.md` (REAL TEST) (NEW)
+- `zen-mcp-server-comprehensive-code-review-2025.md` (CODE REVIEW) (NEW)
 - `ethos-audit-zen-mcp-vs-daedalus-design-atomic-tasks-2025.md` (SIMULATION)
 
 ---
@@ -355,10 +363,16 @@ The research is now organized into these major categories:
 - `llm-training-priorities-hestai-platform-2025.md`
 - `llm-training-priorities-hestai-platform-2025-llm-optimised.oct.md`
 
-### 15. Claude Code Integration (2 documents)
+### 15. Claude Code Integration (3 documents)
 *Location: `/claude-code/`*
 - Commands reference and configuration guides
 - Integration patterns with HestAI system
+- Auto-compaction challenges and developer strategies
+
+**Key Documents:**
+- `claude-code-atomic-tasks-research-2025-06-30.md`
+- `claude-code-auto-compaction-challenges-developer-strategies-2025.md`
+- `claude-code-integration-strategies.md`
 
 ### 16. Unverified Claims (1 document)
 *Location: `/unverified-claims/`*

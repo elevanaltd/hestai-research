@@ -64,7 +64,7 @@ class CacheManager:
         self._cache = {}
         self._validator = CacheKeyValidator()  # ETHOS insight
     
-    @cache_decorator  # LOGOS insight  
+    @cache_decorator  # LOGOS insight
     def get(self, key):
         if not self._validator.is_safe(key):
             raise InvalidCacheKeyError()
@@ -123,7 +123,7 @@ The test results definitively show that **HestAI's role loading protocol produce
 
 For teams seeking to maximize AI-assisted development effectiveness, adopting the HestAI role loading approach with MCP v3 configuration will yield:
 - Higher quality code
-- Better security posture  
+- Better security posture
 - More maintainable solutions
 - Lower total cost
 
