@@ -6,18 +6,24 @@ This directory contains skills and patterns specifically designed for research w
 
 ### `/skills/`
 Specialized skills for research roles:
-- `RESEARCH_CURATOR_SKILL_HERMES.oct.md` - Primary research curation skill
+- `RESEARCH_CURATOR_SKILL_HERMES.oct.md` - Primary research curation skill with navigation, extraction, and curation capabilities
 
 ### `/patterns/`
 Reusable patterns for consistent research practices:
-- `CITATION_FORMAT_PATTERN.md` - Standard citation format
-- `EVIDENCE_CHAIN_PATTERN.md` - Tracking claim validation
+- `CITATION_FORMAT_PATTERN.md` - Standard citation format: "[Finding] (category/document:line)"
+- `EVIDENCE_CHAIN_PATTERN.md` - Tracking claim validation from hypothesis to production
 - `CROSS_REFERENCE_PATTERN.md` - Validating references between documents
 - `PREVENTION_CHECKLIST_PATTERN.md` - Active prevention rules to follow
-- More patterns can be added as needed
+- `RESEARCH_PATTERNS_MAP.oct.md` - OCTAVE map showing pattern relationships and dependencies
+- `LLM_COMPRESSED_ORGANIZATION_PATTERN.md` - Document compression strategy using parallel directory structure
+- `SIGNATURE_STANDARD_PATTERN.md` - Attribution format for LLM role work: ROLE(MODEL)
 
 ### Loading Protocols
-- `HERMES_RESEARCH_CURATOR_LOADING_PROTOCOL.md` - Complete activation sequence for research work
+**Primary Activation**: Use `/Users/shaunbuswell/dev/hestai-system/config/00-activation/RESEARCH_CURATOR_GOLD_PROMPT.md` for role loading.
+
+**Archived Legacy Templates** (available in `/00-meta/archive/activations/`):
+- `HERMES_LOADING_TEMPLATE.md` - Generic HERMES loading (superseded)
+- `HERMES_RESEARCH_CURATOR_SEQUENCE.md` - Old research-specific loading (superseded)
 
 ### Active Prevention Files
 - `/prevention-checklist.yaml` - **START HERE** - Read before any work
@@ -25,19 +31,20 @@ Reusable patterns for consistent research practices:
 ## Usage
 
 ### Loading Research Skills
-When activating HERMES for research work, follow the HERMES_RESEARCH_CURATOR_LOADING_PROTOCOL.md for complete setup.
+**Current Method**: Use the updated RESEARCH_CURATOR_GOLD_PROMPT.md from the hestai-system config.
 
-Quick activation:
+**Legacy Method** (archived):
 ```bash
 load HERMES_SHANK on BUILD_ARM with RESEARCH_CURATOR
 ```
 
 The RESEARCH_CURATOR skill provides:
-- `research_search` - Find documents by keyword/pattern
-- `cross_reference` - Validate citations between documents
-- `evidence_chain` - Track claim lineage
-- `extract_insights` - Pull key findings with citations
-- `curate_findings` - Organize discoveries by theme
+- `research_search` - Find documents by keyword/pattern across all 13 research categories
+- `cross_reference` - Validate citations between documents and check bidirectional links
+- `evidence_chain` - Track claim lineage from hypothesis to production with confidence scoring
+- `insight_extraction` - Pull key findings with proper citation format
+- `research_collection` - Add new findings to appropriate categories using research-lock protocol
+- `pattern_recognition` - Identify recurring themes across research areas
 
 ### Applying Patterns
 Patterns ensure consistency across all research work:

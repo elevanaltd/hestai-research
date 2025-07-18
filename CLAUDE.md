@@ -1,5 +1,8 @@
 # CLAUDE.md - HestAI Research Integration
 
+## Initial Setup
+When asked to load RESEARCH_CURATOR, load role via /Users/shaunbuswell/dev/hestai-system/config/00-activation/standalone/RESEARCH_CURATOR_GOLD_PROMPT.md, MODEL_NAME=sonnet-4
+
 ## Research Directory Overview
 You are operating within the HestAI research directory, which contains 241 research documents (post-HERMES reorganization) that trace the evolution from Thymos orchestral concepts through Daedalus workshop metaphors to the modern HestAI system. This directory serves as the knowledge base for understanding system evolution, cognitive architectures, and empirical validations.
 
@@ -22,62 +25,6 @@ This research directory is closely linked to the HestAI system at:
 ```
 /Users/shaunbuswell/dev/hestai-system/
 ```
-
-### Available System Tools
-You have access to the HestAI system tools (use full paths):
-```bash
-# Context streaming
-/Users/shaunbuswell/dev/hestai-system/scripts/hestai-context
-
-# Session management
-/Users/shaunbuswell/dev/hestai-system/scripts/hestai-session
-
-# Incident management
-/Users/shaunbuswell/dev/hestai-system/scripts/hestai-incident
-```
-
-## Research-Specific Role Loading
-
-### CRITICAL: How Role Loading Actually Works
-
-When you see `load [ROLE]_SHANK on [PHASE]_ARM with [SKILLS]`, this is NOT just a command - it triggers the full ROLE_LOADING_PROTOCOL:
-
-1. **The loading syntax triggers a 5-phase cognitive boot sequence**
-2. **You must follow the protocol at**: `/Users/shaunbuswell/dev/hestai-system/config/activations/ROLE_LOADING_PROTOCOL.md`
-3. **The protocol loads actual files from the hestai-system**:
-   - SHANK files: `/Users/shaunbuswell/dev/hestai-system/config/role-anchors/[ROLE]_SHANK.oct.md`
-   - ARM files: `/Users/shaunbuswell/dev/hestai-system/config/arms/[ROLE]_[PHASE]_ARM.oct.md`
-   - FLUKE files: `/Users/shaunbuswell/dev/hestai-system/config/skills/[SKILL].oct.md`
-
-### HERMES for Research Caretaking
-
-When someone says "activate HERMES for research" or "I need to organize research findings":
-
-**Don't just explain - ACTIVATE using the protocol**:
-
-```bash
-# For research work, load with the local RESEARCH_CURATOR skill
-load HERMES_SHANK on BUILD_ARM with RESEARCH_CURATOR
-
-# Note: RESEARCH_CURATOR is a local skill in this directory
-# It provides specialized research navigation, extraction, and curation capabilities
-```
-
-**The RESEARCH_CURATOR skill (local to this directory):**
-- Located at: `/Users/shaunbuswell/dev/hestai-research/00-meta/activations/skills/RESEARCH_CURATOR_SKILL_HERMES.oct.md`
-- Provides: Research search, cross-referencing, evidence chains, insight extraction, and curation
-- Integrates with: `research-lock` for safe concurrent operations
-- Works with all research categories in this directory
-- Additional patterns in: `/00-meta/activations/patterns/`
-
-**This triggers the 5-phase loading sequence**:
-- Phase 0: ORIENTATION - Acknowledge and prepare
-- Phase 1: GROUNDING - Load system foundations
-- Phase 2: IDENTITY_FORMATION - Absorb HERMES identity
-- Phase 3: CONTEXT_ATTACHMENT - Attach BUILD_ARM (for file operations)
-- Phase 4: CAPABILITY_LOADING - Load RESEARCH_CURATOR skill from local directory
-- Phase 5: OPERATIONAL_ANCHOR - Save runtime anchor
-
 ### Local Research Tools
 
 **research-lock** - Lightweight locking for research directory
