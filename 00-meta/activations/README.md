@@ -19,7 +19,9 @@ Reusable patterns for consistent research practices:
 - `SIGNATURE_STANDARD_PATTERN.md` - Attribution format for LLM role work: ROLE(MODEL)
 
 ### Loading Protocols
-**Primary Activation**: Use `/Users/shaunbuswell/dev/hestai-system/config/00-activation/RESEARCH_CURATOR_GOLD_PROMPT.md` for role loading.
+**Primary Activation**: Use `/Volumes/HestAI/hestai-orchestrator/assembly/protocols/gold/research-curator-gold.md` for role loading via the new HestAI orchestrator.
+
+**Alternative Direct Loading**: Load via `hestai-research/CLAUDE.md` instructions which reference the orchestrator.
 
 **Archived Legacy Templates** (available in `/00-meta/archive/activations/`):
 - `HERMES_LOADING_TEMPLATE.md` - Generic HERMES loading (superseded)
@@ -31,7 +33,12 @@ Reusable patterns for consistent research practices:
 ## Usage
 
 ### Loading Research Skills
-**Current Method**: Use the updated RESEARCH_CURATOR_GOLD_PROMPT.md from the hestai-system config.
+**Current Method**: Use the HestAI orchestrator's `execute_role` tool:
+```bash
+cd /Volumes/HestAI/hestai-orchestrator
+./run-server.sh
+# Then use execute_role(role_id="research-curator", prompt="...", files=[...])
+```
 
 **Legacy Method** (archived):
 ```bash
