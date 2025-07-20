@@ -1,6 +1,6 @@
 # HestAI Research Master Index
 
-**Total Research Documents: 244**
+**Total Research Documents: 245**
 **Last Updated: January 2025 (Post-HERMES Reorganization)**
 **Note**: Count includes all markdown files; structure completely reorganized by HERMES
 
@@ -357,10 +357,11 @@ The research is now organized into these major categories:
 - `llm-training-priorities-hestai-platform-2025.md`
 - `llm-training-priorities-hestai-platform-2025-llm-optimised.oct.md`
 
-### 15. Claude Code Integration (2 documents)
+### 15. Claude Code Integration (3 documents)
 *Location: `/claude-code/`*
 - Commands reference and configuration guides
 - Integration patterns with HestAI system
+- **Context compaction indicator analysis**: Technical documentation of Claude's context management with HestAI integration strategies
 
 ### 16. Unverified Claims (1 document)
 *Location: `/unverified-claims/`*
