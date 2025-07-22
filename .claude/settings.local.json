@@ -1,9 +1,37 @@
 {
   "permissions": {
     "allow": [
-      "mcp__ruv-swarm",
-      "mcp__claude-flow"
+      "Bash(mkdir:*)",
+      "Bash(chmod:*)",
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Bash(cp:*)",
+      "Bash(rm:*)",
+      "Bash(mv:*)",
+      "Bash(grep:*)",
+      "Bash(tree:*)",
+      "Bash(sed:*)",
+      "Bash(export:*)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "WebFetch(domain:supabase.com)"
     ],
     "deny": []
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Volumes/HestAI/hestai-tests/.anchor/protected/anchor_restore_gate.sh"
+          },
+          {
+            "type": "command",
+            "command": "/Volumes/HestAI/hestai-tests/scripts/test-compaction-detection"
+          }
+        ]
+      }
+    ]
   }
 }
