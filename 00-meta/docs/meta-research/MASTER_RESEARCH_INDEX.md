@@ -1,7 +1,7 @@
 # HestAI Research Master Index
 
-**Total Research Documents: 248**
-**Last Updated: July 2025 (Post-HERMES Reorganization)**
+**Total Research Documents: 262**
+**Last Updated: July 2025 (Research Curator Processing - 7 new documents added including Subagent and Platform Evaluation categories)**
 **Note**: Count includes all markdown files; structure completely reorganized by HERMES
 
 ## Overview
@@ -17,6 +17,9 @@ The research is now organized into these major categories:
 - **System Evolution** - Historical development timelines (Thymos→Daedalus→HestAI)
 - **Operational Content** - Active tools, guides, and implementations
 - **Specialized Research** - Cognitive architecture, cost analysis, pattern learning
+- **Extended Analysis & Validation** - Advanced research requiring systematic investigation protocols
+- **Subagent Research** - Claude Code subagents capability validation and integration (NEW)
+- **Platform Evaluation** - Comprehensive platform analyses and competitive comparisons (NEW)
 
 ---
 
@@ -89,6 +92,12 @@ The research is now organized into these major categories:
 - `zen-mcp-context-revival-critical-analysis-vs-hestai-2025.md` (NEW)
 - `agno-framework-comprehensive-integration-research-2025.md` (NEW)
 - `LOGOS_LOADING_PROTOCOL_HUMBLING_REPORT.md` (NEW)
+- `role-loading-effectiveness-analysis-2025-07-24.md` (NEW)
+- `role-specification-failure-analysis-2025-07-21.md` (NEW)
+- `C017-C029-code-review-specialist-meta-analysis-2025.md` (NEW)
+- `role-activation-failure-analysis-C029-2025.md` (NEW)
+- `octave-specialist-context-degradation-analysis-2025.md` (NEW)
+- `implementation-lead-best-practices-research-2025.md` (NEW)
 - `skill-system-validation-report.md`
 - `raph-benchmarking-evidence.md`
 - `critical-failure-modes-report.md`
@@ -312,8 +321,8 @@ The research is now organized into these major categories:
 
 ---
 
-## 10. System Research (2 documents)
-*Location: `/system-research/`*
+## 10. System Research (4 documents)
+*Location: `/system-research/` and `/01-active-research/system-comparison/`*
 
 ### External System Analysis:
 - **Open-source AI agent systems**: Memory and reasoning architectures
@@ -323,9 +332,18 @@ The research is now organized into these major categories:
 - **Key patterns**: Memory banks, multi-agent orchestration, Plan/Act paradigms, A2A protocols, multi-model routing
 - **Direct relevance**: Informs HestAI memory, reasoning, and orchestration design decisions
 
+### Community Validation Studies:
+- **Reddit AI behavior insights**: Sycophantic behavior patterns confirming HestAI constraint approach
+- **Prompt engineering validation**: Helper words trigger assistant mode bypassing systematic protocols
+- **Empirical cross-reference**: Community observations validated through HestAI research corpus
+- **Training bias analysis**: RLHF/Constitutional AI effects on systematic processing
+
 ### Key Documents:
 - `open-source-ai-agent-systems.md`
 - `promising-ai-agent-infrastructure.md`
+- `reddit-ai-sycophantic-behavior-insights-2025.md`
+- `reddit-prompt-engineering-helper-words-validation-2025.md`
+- `anthropic-teams-claude-code-usage-patterns-2025.md` (NEW)
 
 ---
 
@@ -419,9 +437,73 @@ The research is now organized into these major categories:
 
 ---
 
+## 17. Extended Analysis & Validation Research (0 documents)
+*Location: `/06-eav-research/`*
+
+### Advanced Research Protocols:
+- **Extended Analysis**: Complex multi-factor research requiring systematic investigation
+- **Advanced Validation**: Empirical studies requiring extended validation protocols  
+- **Investigative Studies**: Research requiring systematic investigation and evidence gathering
+
+### Research Standards:
+- **Methodology**: Systematic investigation protocols required
+- **Evidence**: Multiple validation steps and source triangulation
+- **Documentation**: Comprehensive evidence chains and analysis trails
+- **Integration**: Supports advanced role-based research methodologies
+
+### Key Documents:
+- Advanced validation studies requiring systematic investigation protocols
+
+---
+
+## 11. Subagent Research (5 documents)
+*Location: `/07-subagent-research/`*
+*Subdirectories: `capability-validation/`, `integration-patterns/`*
+
+### Breakthrough Discovery: Claude Code Subagents
+- **Capability Validation**: CONFIRMED - Subagents can embody HestAI gold-tier protocols
+- **Technical Analysis**: Superior implementation guidance and code examples
+- **Protocol Alignment**: Full embodiment of role requirements
+- **Integration Potential**: Complementary to zen-mcp capabilities
+
+### Key Findings:
+- **Protocol Embodiment**: ✅ Subagents successfully embody gold-tier protocols
+- **Technical Capability**: ✅ Professional-grade engineering analysis
+- **Contextual Awareness**: ✅ Excellent design evolution tracking
+- **Independent Judgment**: ✅ No reflexive agreement patterns
+
+### Key Documents:
+- `subagents-validation-report-2025-07-25.md` - Comprehensive capability validation (CSE role)
+- `C014-SUBAGENT-VALIDATION-CAPABILITY-REPORT.md` - VALIDATOR role systematic analysis validation
+- Integration patterns and orchestration strategies (in development)
+
+---
+
+## 12. Platform Evaluation (4 documents)
+*Location: `/08-platform-evaluation/`*
+*Subdirectories: `comprehensive-studies/`, `comparative-analysis/`*
+
+### Comprehensive Platform Analysis:
+- **SmartSuite Evaluation**: Complete analysis with 10+ platform comparison
+- **Workflow Management**: Assessment for modular, chaos-driven workflows
+- **Integration Capabilities**: API availability and HestAI ecosystem compatibility
+- **Decision Support**: Strategic technology selection guidance
+
+### Platform Categories Analyzed:
+- **Document-Centric**: Notion, Coda with collaborative editing strength
+- **Project Management**: ClickUp, Monday.com, Wrike with scheduling power
+- **Database-Centric**: Airtable with structured data management
+- **Enterprise Solutions**: MS Project, Smartsheet for formal workflows
+
+### Key Documents:
+- `smartsuite-comprehensive-platform-evaluation-2025.md` - Full platform analysis
+- Comparative matrices and strategic recommendations
+
+---
+
 ## Conclusion
 
-This research corpus provides comprehensive empirical validation for the HestAI system. With 185 documented studies covering empirical validation, Zen-MCP integration, cognitive architecture, cost optimization, user experience, architectural patterns, and the breakthrough Odyssean Anchor discovery, the evidence strongly supports the viability and value of the HestAI approach to AI-augmented work.
+This research corpus provides comprehensive empirical validation for the HestAI system. With 257 documented studies covering empirical validation, Zen-MCP integration, cognitive architecture, cost optimization, user experience, architectural patterns, the breakthrough Odyssean Anchor discovery, Claude Code subagents capability, and comprehensive platform evaluations, the evidence strongly supports the viability and value of the HestAI approach to AI-augmented work.
 
 The research demonstrates that by making AI collaboration feel like working in a well-equipped workshop with intelligent tools, we can achieve:
 - 25-50x cost efficiency

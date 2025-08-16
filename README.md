@@ -35,6 +35,10 @@ hestai-research/
 ├── 📖 05-reference/             # Quick lookup & navigation
 │   ├── matrices/                # Model selection & capability matrices
 │   └── indices/                 # Master research index & cross-refs
+├── 🔍 06-eav-research/          # 1 doc: Extended Analysis & Validation
+│   ├── extended-analysis/       # Complex multi-factor research
+│   ├── advanced-validation/     # Extended validation protocols
+│   └── investigative-studies/   # Systematic investigation research
 └── 00-meta/                     # Organization, inbox, archive
 ```
 
@@ -46,11 +50,12 @@ hestai-research/
 - **Understand the research** → Browse `/01-active-research/` for current studies  
 - **Find proven insights** → Check `/02-proven-insights/` for validated knowledge
 - **Learn the history** → Explore `/04-system-evolution/` by era
+- **Conduct advanced research** → Use `/06-eav-research/` for extended analysis and validation
 - **Find anything specific** → Start at `/05-reference/indices/meta-research/MASTER_RESEARCH_INDEX.md`
 
 ### For Different Roles
 
-**🔬 Researchers**: Use `/01-active-research/` → `/02-proven-insights/` → `/03-implementation-ready/` progression
+**🔬 Researchers**: Use `/01-active-research/` → `/02-proven-insights/` → `/03-implementation-ready/` progression; `/06-eav-research/` for advanced studies
 
 **🚀 Implementers**: Start with `/03-implementation-ready/` and reference back to research for context
 
