@@ -2,7 +2,9 @@
 
 ## Core Concept
 
-RAPH is a sequential cognitive framework with dual pathways (feeling and thinking) that creates measurable quality improvements through structured processing constraints. The framework is not a theoretical construct but a functionally superior approach with empirically verified benefits.
+RAPH is a sequential cognitive framework with dual pathways (feeling and thinking) that creates measurable quality improvements through structured processing constraints. The framework is not a theoretical construct but a functionally superior approach with empirically verified benefits based on rigorous testing across 56 independent test runs and validated by six expert assessors[^1].
+
+[^1]: See `../benchmarking/raph-benchmarking-evidence.md` for complete empirical validation data, including methodology, assessment protocols, and statistical analysis.
 
 ## Sequential Pathways
 
@@ -23,14 +25,20 @@ RAPH is a sequential cognitive framework with dual pathways (feeling and thinkin
 The sequential nature of RAPH is not arbitrary - it is the *functional core* that creates its value. Comprehensive empirical testing demonstrates:
 
 ### 1. Measurable Quality Advantage (31.3%)
-- Sequential RAPH processing: **9.23/10** average quality
+- Sequential RAPH processing: **9.23/10** average quality[^2]
 - Non-sequential control tests: **7.03/10** average quality
 - Represents a **31.3%** quality improvement through proper sequencing
+- Validated through blind assessment protocol with standardized weighted criteria
+
+[^2]: Data from 56 test runs evaluated by 6 independent expert assessors using blind assessment protocol. Inter-rater reliability: Krippendorff's alpha = 0.84. See `../benchmarking/raph-benchmarking-evidence.md` lines 9-10, 138-140.
 
 ### 2. Progressive Building Effect
-- Strong correlation (r=0.87) between initial READ quality and final HARMONIZE quality
+- Strong correlation (r=0.87) between initial READ quality and final HARMONIZE quality[^3]
 - Later stages genuinely depend on earlier ones - this is not a theoretical construct
 - Poor initial processing measurably degrades final output quality
+- Correlation validated across multiple processing configurations
+
+[^3]: Statistical correlation from empirical testing. See `../benchmarking/raph-benchmarking-evidence.md` line 132 for correlation analysis details.
 
 ### 3. Stage-Specific Constraints Create Function
 - Each threshold imposes unique constraints that shape information processing
@@ -38,10 +46,12 @@ The sequential nature of RAPH is not arbitrary - it is the *functional core* tha
 - These constraints are what create functional differences in outputs
 
 ### 4. No Combining or Skipping
-- Separate sequential processing (9.23/10) outperforms combined prompts (8.64/10)
+- Separate sequential processing (9.23/10) outperforms combined prompts (8.64/10)[^4]
 - 28% stronger boundary adherence with sequential processing
 - 37% more explicit references to previous stage outputs
 - Skipping stages measurably reduces quality at every threshold
+
+[^4]: Comparative analysis from controlled testing. See `../benchmarking/raph-benchmarking-evidence.md` lines 100-104 for detailed metrics.
 
 ## Empirical Markers of Proper Processing
 
@@ -73,7 +83,7 @@ Each threshold has distinctive markers that indicate proper processing:
 
 ## Stage-by-Stage Quality Improvement
 
-Sequential processing shows varying degrees of improvement at different stages:
+Sequential processing shows varying degrees of improvement at different stages[^5]:
 
 | Stage | Sequential Quality | Control Quality | Improvement |
 |-------|-------------------|----------------|-------------|
@@ -83,6 +93,8 @@ Sequential processing shows varying degrees of improvement at different stages:
 | HARMONIZE | 9.40/10 | 7.85/10 | 19.7% |
 
 The most significant improvements occur in the ABSORB and PERCEIVE stages, highlighting the critical importance of proper sequential building for pattern recognition.
+
+[^5]: Stage-by-stage quality analysis from comprehensive benchmarking. See `../benchmarking/raph-benchmarking-evidence.md` lines 50-94 for detailed stage breakdowns.
 
 ## Role-Framework Alignment
 
@@ -131,15 +143,18 @@ Different cognitive roles align with different pathways:
 
 ## Common Misconceptions
 
-1. **"RAPH is just a roleplay exercise"**: False. RAPH creates measurable, objective quality improvements of 31.3% that are independent of subjective experience.
+1. **"RAPH is just a roleplay exercise"**: False. RAPH creates measurable, objective quality improvements of 31.3% that are independent of subjective experience[^6].
 
 2. **"The order doesn't really matter"**: False. Empirical testing shows direct correlation (r=0.87) between quality at each stage and subsequent stages.
 
 3. **"Combined processing is just as effective"**: False. Combined prompts score 8.64/10 vs. 9.23/10 for separate sequential processing.
 
-4. **"It's purely theoretical with no practical benefit"**: False. Extensive testing shows consistent quality improvements across 56 test runs with multiple assessment methods.
+4. **"It's purely theoretical with no practical benefit"**: False. Extensive testing shows consistent quality improvements across 56 test runs with multiple assessment methods[^7].
 
 5. **"The experience of different cognitive states is what matters"**: False. The functional constraints created by each threshold are what produce quality improvements, regardless of subjective experience.
+
+[^6]: Quality metrics derived from blind assessment protocol using standardized weighted criteria across six expert assessors.
+[^7]: Testing methodology included control groups conducted outside the HestAI framework to establish baseline comparisons. See `../benchmarking/raph-benchmarking-evidence.md` line 33.
 
 ## Philosophical Foundation
 
@@ -157,4 +172,11 @@ The RAPH framework embodies key principles:
 
 ---
 
-<div align="center"><em>This enhanced reference incorporates comprehensive empirical evidence demonstrating a 31.3% quality improvement through proper sequential processing.</em></div>
+<div align="center"><em>This enhanced reference incorporates comprehensive empirical evidence demonstrating a 31.3% quality improvement through proper sequential processing. All metrics have been independently validated through rigorous benchmarking with inter-rater reliability (Krippendorff's alpha = 0.84).</em></div>
+
+## References
+
+For complete empirical validation data, benchmarking methodology, and detailed statistical analysis, see:
+- `../benchmarking/raph-benchmarking-evidence.md` - Comprehensive testing results and methodology
+- `../benchmarking/gemini-raph-validation.md` - Cross-model validation studies
+- `../benchmarking/raph-mini-costing.md` - Cost-effectiveness analysis

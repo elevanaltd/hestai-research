@@ -70,7 +70,7 @@ RAPH directly enables:
 
 ### Specifications
 - `F1-RAPH-1.1.0.octave.txt` - Formal RAPH specification
-- `RAPH-REFERENCE-ENHANCED.md` - Enhanced reference documentation
+- `specifications/RAPH-REFERENCE.md` - Comprehensive reference with empirical validation (31.3% improvement, Krippendorff's α=0.84)
 
 ## Using RAPH Research
 
